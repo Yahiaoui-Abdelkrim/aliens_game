@@ -12,5 +12,10 @@ class Settings:
         self.bullet_color = 50, 50, 50
         self.bullets_allowed = 3
         self.alien_speed_factor = 1
-        self.fleet_drop_speed = 50
+        self.alien_points = 50
+        self.fleet_drop_speed = 10
         self.fleet_direction = 1
+        self.score_scale = 1.5
+    
+    def increse_speed(self):
+        self.aliens_points = int(self.alien_points * self.score_scale)
