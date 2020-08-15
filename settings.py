@@ -16,6 +16,6 @@ class Settings:
         self.fleet_drop_speed = 10
         self.fleet_direction = 1
         self.score_scale = 1.5
-    
+
     def increse_speed(self):
         self.aliens_points = int(self.alien_points * self.score_scale)
